@@ -1,0 +1,169 @@
+
+footer{
+    margin-top: 94px;
+}
+.newsletter-container{
+    display: flex;
+    max-width: 100%;
+    height: 46px;
+    padding: 16px 100px;
+    border-top: 1px solid #141414;
+    border-bottom: 1px solid #141414;
+    background: #F9F9F9;
+    align-items: center; 
+}
+
+.newsletter-text{
+    margin-right: 16px;
+}
+.newsletter-text-titulo{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.newsletter-text-subTitulo{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.newsletter-text-subTitulo b{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.newsletter-form {
+    display: flex;
+    align-items: center; 
+    gap: 16px; 
+}
+.newsletter-form input{
+    width: 500px;
+    height: 46px;
+    border: 1px solid #000;
+}
+.newsletter-form input::placeholder{
+    color: #909090;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 78px;
+}
+.newsletter-form button{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: #141414;
+
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
+@media (max-width:768px) {
+    .newsletter-container{
+        display: none;
+    }
+    
+}
+
+.institucional{
+    display: flex;
+    margin-top: 52px;
+}
+
+.institucional-logo{
+    margin-right: 204px;
+    margin-left: 100px;
+}
+
+.middle-section{
+    margin-right: 355px;
+}
+
+@media (max-width:768px) {
+    .institucional{
+        display: grid;
+        align-items: center;
+    }
+    .institucional-logo{
+        margin: 0 auto;
+    }
+    .middle-section{
+        margin: 0 auto;
+    }
+    .institucional-titulo, .institucional-subTitulo  {
+        text-align: center;
+    }
+    .social-icons{
+        margin: 0 auto;
+    }
+    .div-social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    height: 46px;
+    color: #fff;
+    margin-top: 56px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.images img {
+    width: 68.921px;
+    height: 25.599px;
+}
+
+.footer-barText {
+    margin-left: auto;
+    padding-right: 100px;
+    
+}
+@media (max-width:768px){
+    .footer-bar{
+        height: auto;
+        display: grid;
+        margin: 20px auto;
+    }
+    .images{
+        padding: unset;
+        margin: 10px auto;
+    }
+    .footer-barText{
+        padding: unset;
+        margin: 0 auto 10px auto;
+    }
+}
