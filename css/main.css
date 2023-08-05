@@ -122,7 +122,11 @@
 .slick-list {
     overflow: hidden;
 }
+.custom-prev-1, .custom-prev-2, .custom-next-1, .custom-next-2{
+    cursor: pointer;
+    font-size: 24px;
 
+}
 .carousel-titulo {
     font-size: 16px;
     font-style: normal;
