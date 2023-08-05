@@ -1,34 +1,66 @@
 $(document).ready(function() {
-  $('.carousel').slick({
+  $('.carousel-1').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    infinite: true,
     centerMode: true,
     centerPadding: '60px',
-    prevArrow: $('.custom-prev'),
-    nextArrow: $('.custom-next'),
+    prevArrow: $('.custom-prev-1'),
+    nextArrow: $('.custom-next-1'),
     responsive: [
       {
-        breakpoint: 769,
+        breakpoint: 1025,
         settings: {
           arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 769,
+        settings: {  
+          arrows: false,
           slidesToShow: 2
         }
       },
       {
-        breakpoint: 600,
-        settings: {
-          className: "slider variable-width",
+        breakpoint: 521,
+        settings: {  
           arrows: false,
-          centerMode: true,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          variableWidth: true
+          slidesToShow: 1
         }
-      }
+      }  
+    ]
+  });
+});
+$(document).ready(function() {
+  $('.carousel-2').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '60px',
+    prevArrow: $('.custom-prev-2'),
+    nextArrow: $('.custom-next-2'),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {  
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {  
+          arrows: false,
+          slidesToShow: 1
+        }
+      }  
     ]
   });
 });

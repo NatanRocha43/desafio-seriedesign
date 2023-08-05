@@ -78,7 +78,7 @@ footer{
     line-height: normal;
     letter-spacing: 0.63px;
 }
-@media (max-width:768px) {
+@media (max-width:1023px) {
     .newsletter-container{
         display: none;
     }
@@ -99,7 +99,7 @@ footer{
     margin-right: 355px;
 }
 
-@media (max-width:768px) {
+@media (max-width:1023px) {
     .institucional{
         display: grid;
         align-items: center;

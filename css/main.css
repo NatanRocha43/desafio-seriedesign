@@ -89,6 +89,7 @@
 }
 @media (max-width:768px) {
     .img-firstTop img{
+        width: 100%;
         height: 300px;
     }
     .image-titulo, .image-caption{
@@ -243,7 +244,7 @@
     height: 354px;
 }  
 
-@media (max-width: 600px){
+@media (max-width: 1023px){
     .video{
         width: 275px;
         height: 214px;
