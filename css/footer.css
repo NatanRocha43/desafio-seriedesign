@@ -156,7 +156,7 @@ footer{
     .footer-bar{
         height: auto;
         display: grid;
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
     }
     .images{
         padding: unset;
